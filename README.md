@@ -1,2 +1,2 @@
 # My Portfolio
-This repository is built step by step in the tutorial.
+This is My Personal Portfolio Project 
