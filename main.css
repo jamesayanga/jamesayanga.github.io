@@ -1,6 +1,16 @@
 body {
     text-align: center;
-    background: rgb(6, 35, 124);
+    background-image: url("Images\background 2.png");
+    background-position: center;
     color: white;
     font-family: helvetica;
 }
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    }
+  input[type="submit"] {
+    color: white;
+    background: rgb(5, 42, 97);
+    }
