@@ -8,6 +8,24 @@ body {
     color: rgb(96, 13, 99);
     font-family: helvetica;
 }
+
+h1 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 input {
     border: 0;
     padding: 10px;
