@@ -1,8 +1,6 @@
 body {
-background-color: lightblue;
-}
-
-h1 {
-color: navy;
-margin-inline-start: 20px;
+    text-align: center;
+    background: rgb(6, 35, 124);
+    color: white;
+    font-family: helvetica;
 }
