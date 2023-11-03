@@ -1,25 +1,29 @@
+
 body {
     text-align: center;
     background: url("background 2.png");
-    background-position: -0px -110px;
+    background-position: 40% 15%;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
     color: rgb(96, 13, 99);
-    font-family: helvetica;
-    height: auto;
+      
 }
 
 h1 {
     text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1000px) {
     body {
-    font-size: 15px;
+       font-size: calc(12px + 12 * ((100vw - 320px) / 1600));
+       
+ }
+ @media only screen and (max-width: 320px) {
+    body {
+       font-size: 12px;
     }
-    }
-
+ }
 
 input {
     border: 0;
@@ -29,5 +33,6 @@ input {
   input[type="submit"] {
     color: rgb(73, 226, 201);
     background: rgb(5, 39, 90);
+
     
     }
