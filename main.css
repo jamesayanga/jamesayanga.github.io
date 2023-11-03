@@ -1,7 +1,7 @@
 body {
     text-align: center;
     background: url("background 2.png");
-    background-position: -0px -50px;
+    background-position: -0px -100px;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
@@ -15,7 +15,7 @@ h1 {
 }
 
 @media screen and (max-width: 80rem) {
-    .container {
+    body{
       margin: 1em 2em;
     }
   }
