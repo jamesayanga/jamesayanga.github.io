@@ -1,12 +1,13 @@
 body {
     text-align: center;
     background: url("background 2.png");
-    background-position: center;
+    background-position: -0px -110px;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
     color: rgb(96, 13, 99);
     font-family: helvetica;
+    height: auto;
 }
 
 h1 {
