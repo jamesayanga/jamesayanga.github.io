@@ -14,7 +14,7 @@ h1 {
     text-align: center;
 }
 
-@media screen and (min-inline-size: 80rem) {
+@media screen and (min-width: 80rem) {
     .container {
       margin: 1em 2em;
     }
