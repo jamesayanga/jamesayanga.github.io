@@ -7,9 +7,15 @@ body {
     background-size: cover;
     color: rgb(96, 13, 99);
     font-family: helvetica;
-    width: 100%;
+    max-width: 100%;
 }
-
+* {
+    box-sizing: border-box; 
+}
+@media (min-width: 800px) {
+    body {
+      font-size: 1.0em;
+    }
 h1 {
     text-align: center;
 }
