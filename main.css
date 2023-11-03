@@ -1,7 +1,7 @@
 body {
     text-align: center;
     background: url("background 2.png");
-    background-position: center;
+    background-position: -0px -140px;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
@@ -9,18 +9,16 @@ body {
     font-family: helvetica;
     max-width: 100%;
 }
-* {
-    box-sizing: border-box; 
-}
-@media (min-width: 800px) {
-    body {
-      font-size: 1.0em;
-    }
+
 h1 {
     text-align: center;
 }
 
-
+@media screen and (min-inline-size: 80rem) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
 
 
 
