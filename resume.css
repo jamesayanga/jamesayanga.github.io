@@ -4,3 +4,8 @@ body {
     font-family: helvetica;
     background-color: black;
 }
+article {
+    max-width: 500px;
+    padding: 1px;
+    margin: 0 auto;
+    }

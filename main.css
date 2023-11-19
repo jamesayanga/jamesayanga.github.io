@@ -12,6 +12,7 @@ body {
 
 h1 {
     text-align: center;
+    font-weight:900;
 }
 
 .header { 
@@ -49,3 +50,18 @@ input {
 
     
     }
+.nav ul {
+    padding: 10px;
+    background:rgba(125, 13, 199, 0.767);;
+}
+.nav li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+.nav a {
+    color:rgb(6, 70, 59);
+}
+.mail {
+    margin: auto;
+}
