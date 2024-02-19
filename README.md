@@ -1,2 +1,3 @@
-# My Portfolio
-This is My Personal Portfolio Project 
+James Ayanga Owacho Portfolio
+
+This is my personal project portfolio
