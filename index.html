@@ -6,31 +6,85 @@
 <link rel="stylesheet" href="main.css">
 <link rel="icon" type="image/x-icon" href="Images\favicon-32x32.png">
 <meta charset="UTF-8">
-  <meta name="description" content="James Ayanga Owacho Portfolio">
-  <meta name="keywords" content="James Ayanga Owacho portfoli, HTML, CSS, JavaScript, Java, Python, C#, Unity Developer">
-  <meta name="author" content="James Ayanga Owacho">
-  <meta http-equiv="refresh" content="30">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="James Ayanga Owacho Portfolio">
+<meta name="keywords" content="James Ayanga Owacho portfoli, HTML, CSS, JavaScript, Java, Python, C#, Unity Developer">
+<meta name="author" content="James Ayanga Owacho">
+<meta http-equiv="refresh" content="30">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>
-    <div class="nav">
-        <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Best Poems</a></li>
-            <li><a href="#">Worst Poems</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Best Poems</a></li>
-            <li><a href="#">Worst Poems</a></li>
-          </ul>
-    </div>
-<div class="header">
-    <h1>Hi! I'm James Ayanga Owacho, <br>A Full-Stack Software Developer. 
-        <br>Say Hello!</h1>   
-    </div>
-
-<div class="mail">
-    <input type="email" placeholder="Your email">
-    <input type="submit">
-    </div>
-</body>
-</html>
+    <body>
+        <header class="container">
+            <div class="page-header">
+                <div class="logo">
+                    <a href="#">Portfolio.</a>
+                </div>
+                <input type="checkbox" id="click">
+    
+                <label for="click" class="mainicon">
+                    <div class="menu">
+                        <i class='bx bx-menu'></i>
+                    </div>
+                </label>
+                <ul>
+                    <li><a href="#"  class="active" >Home</a></li>
+                    <li><a href="#" >About</a></li>
+                    <li><a href="#" >Skills</a></li>
+                    <li><a href="#" >Portfolio</a></li>
+                    <li><a href="#" >Contact</a></li>
+                </ul>
+                <label class="mode">
+                    <input type="checkbox" id="darkModeToggle">
+                    <i class='bx bxs-moon'></i>
+                </label>
+            </div>
+        </header>
+    
+    
+        <section class="container">
+            <div class="main">
+                <div class="images">
+                    <img src="background 2.png" alt="" class="img-w">
+                    <span class="bg-effect-1">
+                    <span class="bg-effect-1"></span>
+    
+                    </span>
+                </div>
+                <div class="detail">
+                    <h3>Hello, I'm</h3>
+                    <h1><span style="color:#f9532d;">James</span> Ayanga</h1> 
+                    <p>A Fullstack Software Developer.</p>  
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/jamesayanga/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://twitter.com/ayanga_james_" target="_blank"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://github.com/jamesayanga" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.freecodecamp.org/jowacho" target="_blank"><i class="fa-brands fa-free-code-camp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <script>
+            const darkModeToggle = document.getElementById('darkModeToggle');
+            const body = document.body;
+            const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+            if (isDarkMode) {
+                body.classList.add('dark-mode');
+                darkModeToggle.checked = true;
+            }
+            darkModeToggle.addEventListener('change', () => {
+                if (darkModeToggle.checked) {
+                    body.classList.add('dark-mode');
+                    localStorage.setItem('darkMode', 'enabled');
+                } else {
+                    body.classList.remove('dark-mode');
+                    localStorage.setItem('darkMode', 'disabled');
+                }
+            });
+        </script>
+        <script src="https://kit.fontawesome.com/de5731e5f1.js" crossorigin="anonymous"></script>
+    </body>
+    
+    </html>
